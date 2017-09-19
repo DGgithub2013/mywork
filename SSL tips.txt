@@ -1,0 +1,18 @@
+
+
+https://support.google.com/webmasters/answer/139066?hl=en#1
+https://www.screamingfrog.co.uk/5-easy-steps-to-fix-secure-page-https-duplicate-content/
+https://www.predikkta.com/blog/ssl-certificates-explained.html
+
+
+1.Update all internal links on your website so that the URL starts with HTTPS and not HTTP. If, as recommended by Google, you already use relative internal links (//yourdomain.com instead of http://www.yourdomain.com), you don’t need to change anything. If not, then you either need to change them to point to HTTPS, or to relative internal links.
+2.Check all links for separate files used by your website: JavaScript files, CSS, images, etc. and make sure these (when stored on your own web server) also reflect HTTPS instead of HTTP. If your website uses JQuery, Bootstrap, and similar common frameworks and libraries, you may find that these are hosted on an external CDN (content delivery network). Many of these are already delivered via HTTPS, but it is important to first check that you have used the correct URL.
+3.If any of your pages include canonical tags, check that these too are updated for HTTPS.
+4.Add a general 301 redirect to your .htaccess file. This will ensure that anyone following an outdated external link to your website is automatically redirected to the new secure URL. An example of what this should look like:# Redirect non-www to https + www
+ # http://yourdomain.com becomes https://www.yourdomain.com
+ RewriteCond %{HTTP_HOST} !^www\.
+ RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]# Redirect non-https to https
+ # http://www.yourdomain.com becomes https://www.yourdomain.com
+ RewriteCond %{HTTPS} off
+ RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+5.Update the links in your social media profiles to reflect the new secure URL. This isn’t too critical since the general 301 redirect suggested above would also work.
