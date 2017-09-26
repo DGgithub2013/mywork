@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rssFeed", "rssFeed.csproj", "{32F84913-438D-4518-AA57-7129161E69DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestExporter", "..\UnitTestExporter\UnitTestExporter.csproj", "{8380C459-7567-4848-B7DC-1E1EBCBAC600}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F84913-438D-4518-AA57-7129161E69DB}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{32F84913-438D-4518-AA57-7129161E69DB}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{32F84913-438D-4518-AA57-7129161E69DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F84913-438D-4518-AA57-7129161E69DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F84913-438D-4518-AA57-7129161E69DB}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F84913-438D-4518-AA57-7129161E69DB}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{32F84913-438D-4518-AA57-7129161E69DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F84913-438D-4518-AA57-7129161E69DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F84913-438D-4518-AA57-7129161E69DB}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{32F84913-438D-4518-AA57-7129161E69DB}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{8380C459-7567-4848-B7DC-1E1EBCBAC600}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{8380C459-7567-4848-B7DC-1E1EBCBAC600}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{8380C459-7567-4848-B7DC-1E1EBCBAC600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8380C459-7567-4848-B7DC-1E1EBCBAC600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8380C459-7567-4848-B7DC-1E1EBCBAC600}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{8380C459-7567-4848-B7DC-1E1EBCBAC600}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{8380C459-7567-4848-B7DC-1E1EBCBAC600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8380C459-7567-4848-B7DC-1E1EBCBAC600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8380C459-7567-4848-B7DC-1E1EBCBAC600}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{8380C459-7567-4848-B7DC-1E1EBCBAC600}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
